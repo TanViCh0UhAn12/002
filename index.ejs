@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" >
+        <title> Weatherly</title>
+        <link rel='stylesheet' type="text/css" href="/css/style.css"/>
+        <link
+        font-family: Inconsolata, monospace;
+        rel="stylesheet"
+        type="text/css"
+        />
+    </head>
+    <body>
+        <div class="has-animation animation-ltr margin padding animate-in" data-delay="10">
+            <h1>Get the Weather with Weatherly!
+            
+            </h1>
+        </div>
+ <div class="container">
+     <fieldset>
+         <form action="/" method="POST" autocomplete="off">
+             <input name="city" type="text" placeholder="Enter a City" class ="ghost-button" required >
+             <input id ="submit" type="submit" value="Get Weather" class="ghost-button">
+         </form>
+         <!-- This is the ejs template engine-->
+         <% if(weather !== null){%>
+        <p><%= weather %></p>
+    <% } %> <% if(error!==null){%>
+    <p><%=error %></p>
+<% } %>
+     </fieldset>
+ </div>
+    </body>
+</html>
