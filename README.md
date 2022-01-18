@@ -13,4 +13,5 @@ My Project using Nodejs
 <------------------------------------------------------------------------------------------------------------------------------------------>
 
   
-  [WeatherlyApp](https://user-images.githubusercontent.com/96679594/149821016-8c93998e-2910-4112-b0db-a43de0c4f996.gif)
+  ![WeatherlyApp](https://user-images.githubusercontent.com/96679594/149871455-413187f6-d447-4a14-956e-7e54cac7467b.gif)
+
